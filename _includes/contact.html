@@ -1,0 +1,49 @@
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<section id="contact">
+  <div class="container">
+    <div class="well well-sm">
+      <h3><strong>Contact Us</strong></h3>
+    </div>
+	
+	<div class="row">
+	  <div class="col-md-7">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107649.15666638543!2d-121.7817470773035!3d38.58267789670319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDMyJzU1LjciTiAxMjHCsDQ0JzIyLjgiVw!5e0!3m2!1sen!2sus!4v1544084932115" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-5">
+          <h4><strong>Get in Touch</strong></h4>
+        <form action="https://formspree.io/{{ site.email }}" method="POST">
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" value="" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="_replyto" value="" placeholder="E-mail">
+          </div>
+          <div class="form-group">
+            <input type="tel" class="form-control" name="phone" value="" placeholder="Phone">
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="3" placeholder="Message"></textarea>
+          </div>
+          <button class="btn btn-default" type="submit" name="" placeholder="Send">
+              <i class="fa fa-envelope" aria-hidden="true"></i> Submit
+          </button>
+          <!-- Formspree Options -->
+          <input type="hidden" name="_next" value="https://fields.construction/about.html" />
+          <input type="hidden" name="_subject" value="Please contact me about your services" />
+          <input type="hidden" name="_format" value="plain" />
+
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
