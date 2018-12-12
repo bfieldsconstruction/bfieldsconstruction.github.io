@@ -2,17 +2,17 @@
 title: Fields Construction
 email: bfieldsconstruction+website@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  General Contractor serving Yolo County area. 
+  General Contractor serving Yolo County area home remodel and repair. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://fields.contstruction" # the base hostname & protocol for your site
 
 # User setting
-owner:
+owner: Site Owner
 facebook_username:
 twitter_username:
 github_username:
 address:
-  - line: Davis, California
+  - line: Davis, California 95616
   - line: Yolo County
   # Feel free to add more lines here 
 telephone: 
@@ -23,3 +23,4 @@ google_api_key:
 
 # Build settings
 markdown: kramdown
+# Services
